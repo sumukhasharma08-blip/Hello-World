@@ -1,13 +1,11 @@
-package day2;
-
-public class code2 {
-	public static void main(String[]args) {
-		int a = 3;
-		int b = 5;
-		int c;
-		c = a;
-		a = b;
-		b = c;
-		System.out.println("a="+a+"\nb="+b);
-	}
+public class code2{
+    public static void main(String[]args){
+        int a = 7;
+        double c = 6.9;
+        double b;
+        b = a;
+        a = (int)c;
+        System.out.println("b + "+b);
+        System.out.println("a + "+a);
+    }
 }
